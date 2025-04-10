@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 
 // Import Routes
-const userRoute = require('./routes/userRoute')
+const userRoute = require('./routes/users')
 
 // Config app
 const app = express();
